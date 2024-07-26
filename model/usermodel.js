@@ -36,14 +36,9 @@
 //   },
 // })
 
-// const User = mongoose.model('users',userSchema);
-// module.exports=User;
 
 
 
-
-
-///hjhujikiki
 // Import necessary modules
 const mongoose = require('mongoose');
 const bcrypt = require('bcrypt');
