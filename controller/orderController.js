@@ -18,6 +18,7 @@ const createOrder = async (req, res) => {
       productId: productId,
       quantity: quantity,
     });
+    // changes
     await newOrder.save();
     res.json({
       success: true,
